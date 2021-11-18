@@ -8,7 +8,6 @@ const App = ()=>{
 
   const saveUser = (data)=>{
     setUser((prevState)=>{
-      debugger
         return [...prevState,data]
       })
   }
